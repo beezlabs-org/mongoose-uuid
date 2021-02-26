@@ -1,11 +1,16 @@
 {
   "name": "@beezlabs/mongoose-uuid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UUID schema type for mongoose",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "author": "Sayak Mukhopadhyay <sayak@beezlabs.com> (https://github.com/SayakMukhopadhyay)",
   "repository": {
     "type": "git",
